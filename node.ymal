@@ -1,0 +1,173 @@
+proxies:
+  - name: "Proxy 1"
+    type: vmess
+    server: 183.236.51.59
+    port: 54100
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 64
+    cipher: auto
+    udp: true
+  - name: "US - Dallas - Datacamp Limited - 8"
+    type: shadowsocks
+    server: 156.146.38.163
+    port: 443
+    password: "aes-128-cfb:shadowsocks"
+    udp: true
+  - name: "US - Herndon - OVH SAS - 10"
+    type: shadowsocks
+    server: 15.204.87.222
+    port: 8091
+    password: "aes-256-gcm"
+    udp: true
+  - name: "Canada - Montreal - GLOBALTELEHOST Corp. - 1"
+    type: shadowsocks
+    server: 23.162.200.215
+    port: 9090
+    password: "aes-256-gcm"
+    udp: true
+  - name: "US - Ashburn - GTHost - 9"
+    type: shadowsocks
+    server: 38.86.135.185
+    port: 443
+    password: "chacha20-ietf-poly1305:81cc63a4-4804-4b44-bd6c-cb9250116190"
+    udp: true
+  - name: "🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1"
+    type: shadowsocks
+    server: hk03.mmyjiedian.com
+    port: 10003
+    password: "chacha20-poly1305:81cc63a4-4804-4b44-bd6c-cb9250116190"
+    udp: true
+  - name: "US - San Jose - PEG TECH INC - 109"
+    type: trojan
+    server: 112.29.94.23
+    port: 46011
+    password: MyYoZhfX
+    udp: true
+    tls: true
+    insecure: true
+  - name: "🇫🇷 法国 OVH机房SAS硬盘BGP主机"
+    type: shadowsocks
+    server: 149.202.82.172
+    port: 5601
+    password: "chacha20-poly1305:81cc63a4-4804-4b44-bd6c-cb9250116190"
+    udp: true
+  - name: "🇺🇲 美国 华盛顿Cogent通信公司"
+    type: shadowsocks
+    server: 38.110.1.111
+    port: 8000
+    password: "chacha20-ietf-poly1305:81cc63a4-4804-4b44-bd6c-cb9250116190"
+    udp: true
+  - name: "Proxy 2"
+    type: vmess
+    server: 183.232.199.61
+    port: 15603
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 62
+    cipher: auto
+    udp: true
+  - name: ""
+    type: shadowsocks
+    server: 43.206.232.102
+    port: 443
+    cipher: chacha20-ietf
+    password: amazonskr055
+    udp: true
+  - name: ""
+    type: vmess
+    server: 183.232.170.21
+    port: 30031
+    uuid: "5bd5899a-4b78-4d75-8570-4d21b43422c4"
+    alterId: 1
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 47.128.230.112
+    port: 443
+    uuid: "648"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 120.232.242.94
+    port: 47883
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 120.232.51.59
+    port: 54629
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 183.236.51.59
+    port: 8009
+    uuid: "648"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 120.233.43.37
+    port: 1042
+    uuid: "648"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 120.233.43.43
+    port: 50809
+    uuid: "648"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 120.233.43.85
+    port: 4920
+    uuid: "648"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 183.236.51.59
+    port: 51002
+    uuid: "648"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 120.233.43.43
+    port: 10595
+    uuid: "648"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+  - name: ""
+    type: vmess
+    server: 120.233.43.37
+    port: 40542
+    uuid: "648"
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
