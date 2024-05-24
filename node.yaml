@@ -17,208 +17,169 @@ proxies:
   - {name: p52103, server: 120.233.43.43, port: 52103, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: p52977, server: 120.233.43.43, port: 52977, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: p54629, server: 120.233.43.37, port: 54629, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1, server: 183.232.170.21, port: 30031, client-fingerprint: chrome, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1, server: 23.162.200.215, port: 9090, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
   - {name: 🇫🇷 法国 OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 5601, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
   - {name: 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61, server: 183.236.51.59, port: 54100, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 中国 - 香港 - Cnservers LLC - 62, server: 120.238.122.243, port: 35601, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1, server: hk03.mmyjiedian.com, port: 10003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 81cc63a4-4804-4b44-bd6c-cb9250116190, tfo: false, udp: true}
-  - {name: 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64, server: 183.232.199.61, port: 15603, client-fingerprint: chrome, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本 - 东京 - Amazon.com, Inc. - 2", server: 43.206.232.102, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false, udp: true}
-  - {name: 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2, server: 47.128.230.112, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false, udp: true}
-  - {name: 🇹🇼 中国 - 台湾 - Akari Networks - 3, server: 2.forlive.live, port: 61005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d77d4bdd-49d7-34c6-adfa-7fda9967d1d7, tfo: false, udp: true}
-  - {name: 🇺🇸 美国 - Ashburn - GTHost - 9, server: 38.86.135.185, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, tfo: false, udp: true}
-  - {name: 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10, server: 15.204.87.222, port: 8091, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false, udp: true}
-  - {name: 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109, server: 112.29.94.23, port: 46011, client-fingerprint: chrome, type: trojan, password: MyYoZhfX, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8, server: 156.146.38.163, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-cfb, password: shadowsocks, tfo: false, udp: true}
-  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.110.1.111, port: 8000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false, udp: true}
-  - {name: 🇺🇸 美国 惠普HP 3, server: 15.204.87.215, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - p40595
+      - p40944
+      - p41042
+      - p43920
+      - p46602
+      - p47883
+      - p48009
       - p51002
       - p51002 2
       - p52103
       - p52977
       - p54629
-      - 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1
-      - 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61
       - 🇭🇰 中国 - 香港 - Cnservers LLC - 62
-      - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1
-      - 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64
       - 🇯🇵 日本 - 东京 - Amazon.com
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2
-      - 🇹🇼 中国 - 台湾 - Akari Networks - 3
-      - 🇺🇸 美国 - Ashburn - GTHost - 9
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10
-      - 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109
       - 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 惠普HP 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - p40595
+      - p40944
+      - p41042
+      - p43920
+      - p46602
+      - p47883
+      - p48009
       - p51002
       - p51002 2
       - p52103
       - p52977
       - p54629
-      - 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1
-      - 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61
       - 🇭🇰 中国 - 香港 - Cnservers LLC - 62
-      - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1
-      - 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64
       - 🇯🇵 日本 - 东京 - Amazon.com
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2
-      - 🇹🇼 中国 - 台湾 - Akari Networks - 3
-      - 🇺🇸 美国 - Ashburn - GTHost - 9
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10
-      - 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109
       - 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 惠普HP 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - p40595
+      - p40944
+      - p41042
+      - p43920
+      - p46602
+      - p47883
+      - p48009
       - p51002
       - p51002 2
       - p52103
       - p52977
       - p54629
-      - 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1
-      - 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61
       - 🇭🇰 中国 - 香港 - Cnservers LLC - 62
-      - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1
-      - 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64
       - 🇯🇵 日本 - 东京 - Amazon.com
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2
-      - 🇹🇼 中国 - 台湾 - Akari Networks - 3
-      - 🇺🇸 美国 - Ashburn - GTHost - 9
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10
-      - 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109
       - 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 惠普HP 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - p40595
+      - p40944
+      - p41042
+      - p43920
+      - p46602
+      - p47883
+      - p48009
       - p51002
       - p51002 2
       - p52103
       - p52977
       - p54629
-      - 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1
-      - 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61
       - 🇭🇰 中国 - 香港 - Cnservers LLC - 62
-      - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1
-      - 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64
       - 🇯🇵 日本 - 东京 - Amazon.com
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2
-      - 🇹🇼 中国 - 台湾 - Akari Networks - 3
-      - 🇺🇸 美国 - Ashburn - GTHost - 9
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10
-      - 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109
       - 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 惠普HP 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - p40595
+      - p40944
+      - p41042
+      - p43920
+      - p46602
+      - p47883
+      - p48009
       - p51002
       - p51002 2
       - p52103
       - p52977
       - p54629
-      - 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1
-      - 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61
       - 🇭🇰 中国 - 香港 - Cnservers LLC - 62
-      - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1
-      - 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64
       - 🇯🇵 日本 - 东京 - Amazon.com
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2
-      - 🇹🇼 中国 - 台湾 - Akari Networks - 3
-      - 🇺🇸 美国 - Ashburn - GTHost - 9
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10
-      - 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109
       - 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 惠普HP 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - p40595
+      - p40944
+      - p41042
+      - p43920
+      - p46602
+      - p47883
+      - p48009
       - p51002
       - p51002 2
       - p52103
       - p52977
       - p54629
-      - 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1
-      - 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61
       - 🇭🇰 中国 - 香港 - Cnservers LLC - 62
-      - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1
-      - 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64
       - 🇯🇵 日本 - 东京 - Amazon.com
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2
-      - 🇹🇼 中国 - 台湾 - Akari Networks - 3
-      - 🇺🇸 美国 - Ashburn - GTHost - 9
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10
-      - 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109
       - 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 惠普HP 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - p40595
+      - p40944
+      - p41042
+      - p43920
+      - p46602
+      - p47883
+      - p48009
       - p51002
       - p51002 2
       - p52103
       - p52977
       - p54629
-      - 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1
-      - 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61
       - 🇭🇰 中国 - 香港 - Cnservers LLC - 62
-      - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1
-      - 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64
       - 🇯🇵 日本 - 东京 - Amazon.com
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2
-      - 🇹🇼 中国 - 台湾 - Akari Networks - 3
-      - 🇺🇸 美国 - Ashburn - GTHost - 9
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10
-      - 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109
       - 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 惠普HP 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -241,27 +202,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - p40595
+      - p40944
+      - p41042
+      - p43920
+      - p46602
+      - p47883
+      - p48009
       - p51002
       - p51002 2
       - p52103
       - p52977
       - p54629
-      - 缅甸 - 仰光 - Wisdom Cloud Internet Technology Pte. LTD - 1
-      - 🇨🇦 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
       - 🇫🇷 法国 OVH机房SAS硬盘BGP主机
       - 🇭🇰 中国 - 香港 - CTG Server Ltd. - 61
       - 🇭🇰 中国 - 香港 - Cnservers LLC - 62
-      - 🇭🇰 中国 - 香港 - Hytron Network Services Limited - 1
-      - 🇭🇰 中国 - 香港 - Proxy Registration Eons Data - 64
       - 🇯🇵 日本 - 东京 - Amazon.com
-      - 🇸🇬 新加坡 - 新加坡 - Amazon Technologies Inc - 2
-      - 🇹🇼 中国 - 台湾 - Akari Networks - 3
-      - 🇺🇸 美国 - Ashburn - GTHost - 9
-      - 🇺🇸 美国 - 希尔斯伯勒 - OVH SAS - 10
-      - 🇺🇸 美国 - 聖荷西 - PEG TECH INC - 109
       - 🇺🇸 美国 - 達拉斯 - Datacamp Limited - 8
-      - 🇺🇸 美国 华盛顿Cogent通信公司
-      - 🇺🇸 美国 惠普HP 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
